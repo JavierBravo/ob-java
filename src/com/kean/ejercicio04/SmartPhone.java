@@ -12,7 +12,7 @@ public class SmartPhone extends SmartDevice{
                 "} " + super.toString();
     }
 
-    public SmartPhone() {}
+    public SmartPhone() {super();}
 
     public SmartPhone(String company, double height, double weight, String model, int year, int frontalCameraPx, int rearCameraPx) {
         super(company, height, weight, model, year);

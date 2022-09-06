@@ -3,7 +3,7 @@ package com.kean.ejercicio04;
 public class SmartWatch extends SmartDevice{
     private boolean isSubmersible;
 
-    public SmartWatch(){}
+    public SmartWatch(){super();}
 
     public SmartWatch(String company, double height, double weight, String model, int year, boolean isSubmersible){
         super(company, height, weight, model, year);
